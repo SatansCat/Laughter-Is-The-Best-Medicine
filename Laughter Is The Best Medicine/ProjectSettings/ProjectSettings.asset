@@ -670,8 +670,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Laughter Is The Best Medicine
-  metroPackageVersion: 
+  metroPackageName: LaughterIsTheBestMedicine
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -679,7 +679,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Laughter Is The Best Medicine
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Laughter Is The Best Medicine
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

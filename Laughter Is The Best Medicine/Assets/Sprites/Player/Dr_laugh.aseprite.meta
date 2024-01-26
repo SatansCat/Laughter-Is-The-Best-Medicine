@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 1c6e59f6c92a5f742b57431caa2a3d68
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 64
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638419075745690941
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dr_laugh_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 202
+      width: 52
+      height: 58
+    spriteID: d627569db74336d40ba9d3b10ae4d690
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 202}
+  - name: Dr_laugh_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 268
+      width: 52
+      height: 58
+    spriteID: 186637f8142a2ca4a904b174116168e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 268}
+  - name: Dr_laugh_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 334
+      width: 52
+      height: 58
+    spriteID: 3130165b1ec405a4b90562d24663fad3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 334}
+  - name: Dr_laugh_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 400
+      width: 52
+      height: 58
+    spriteID: 086ee0cd4e937884f999ca3dc7f43dc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 400}
+  - name: Dr_laugh_Frame_4
+    originalName: 
+    pivot: {x: 0.49122807, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 337
+      width: 57
+      height: 58
+    spriteID: fe39c3ad4ede50b41899a52e1a1f59e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 337}
+  - name: Dr_laugh_Frame_5
+    originalName: 
+    pivot: {x: 0.49122807, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 403
+      width: 57
+      height: 58
+    spriteID: 0a6a825797bd02241be38c30f4808651
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 403}
+  - name: Dr_laugh_Frame_6
+    originalName: 
+    pivot: {x: 0.49122807, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 70
+      width: 57
+      height: 58
+    spriteID: ebd23786f45af714cb44cc8a1072975d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 70}
+  - name: Dr_laugh_Frame_7
+    originalName: 
+    pivot: {x: 0.49122807, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 136
+      width: 57
+      height: 58
+    spriteID: a0703cfa9a764934cad12dd2ae402da4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 136}
+  - name: Dr_laugh_Frame_8
+    originalName: 
+    pivot: {x: 0.4915254, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 71
+      width: 59
+      height: 59
+    spriteID: 2b8ec1a2656ce3242981e5d4cfb739e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 71}
+  - name: Dr_laugh_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 205
+      width: 60
+      height: 58
+    spriteID: d3aeec969684652409702ecc58675191
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 205}
+  - name: Dr_laugh_Frame_10
+    originalName: 
+    pivot: {x: 0.49180326, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 4
+      width: 61
+      height: 58
+    spriteID: c9aac90cdc7c8db4d83e15c291c26a07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 4}
+  - name: Dr_laugh_Frame_11
+    originalName: 
+    pivot: {x: 0.48333335, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 60
+      height: 59
+    spriteID: 5c6f2b95716b6124c97734cf4ded0e66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dr_laugh_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 271
+      width: 60
+      height: 58
+    spriteID: 6b315179976254842a0d48f25a8678f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 271}
+  - name: Dr_laugh_Frame_13
+    originalName: 
+    pivot: {x: 0.4915254, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 138
+      width: 59
+      height: 59
+    spriteID: fec8e07850f8e034c94fde15443e1601
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 138}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -57031426
+    name: Dr_laugh
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dr_laugh_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: d627569db74336d40ba9d3b10ae4d690
+    - name: Dr_laugh_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: 186637f8142a2ca4a904b174116168e7
+    - name: Dr_laugh_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: 3130165b1ec405a4b90562d24663fad3
+    - name: Dr_laugh_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: 086ee0cd4e937884f999ca3dc7f43dc0
+    - name: Dr_laugh_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: 2
+        width: 57
+        height: 58
+      spriteId: fe39c3ad4ede50b41899a52e1a1f59e6
+    - name: Dr_laugh_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: 2
+        width: 57
+        height: 58
+      spriteId: 0a6a825797bd02241be38c30f4808651
+    - name: Dr_laugh_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: 2
+        width: 57
+        height: 58
+      spriteId: ebd23786f45af714cb44cc8a1072975d
+    - name: Dr_laugh_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 4
+        y: 2
+        width: 57
+        height: 58
+      spriteId: a0703cfa9a764934cad12dd2ae402da4
+    - name: Dr_laugh_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 3
+        y: 2
+        width: 59
+        height: 59
+      spriteId: 2b8ec1a2656ce3242981e5d4cfb739e3
+    - name: Dr_laugh_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 2
+        y: 2
+        width: 60
+        height: 58
+      spriteId: d3aeec969684652409702ecc58675191
+    - name: Dr_laugh_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 2
+        y: 2
+        width: 61
+        height: 58
+      spriteId: c9aac90cdc7c8db4d83e15c291c26a07
+    - name: Dr_laugh_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 3
+        y: 2
+        width: 60
+        height: 59
+      spriteId: 5c6f2b95716b6124c97734cf4ded0e66
+    - name: Dr_laugh_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 2
+        width: 60
+        height: 58
+      spriteId: 6b315179976254842a0d48f25a8678f7
+    - name: Dr_laugh_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 3
+        y: 2
+        width: 59
+        height: 59
+      spriteId: fec8e07850f8e034c94fde15443e1601
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

@@ -33,12 +33,11 @@ public class Disease {
     public enum Symptoms {Cough, Sniffles, Blindness, Dehydraded};
 
     public string diseaseName; //Just adding this for easier tracking atm
-    public Sprite Icon;
+    //public sprite Icon; // Might use this?
     List<Symptoms> symptoms = new List<Symptoms>();
 
-    public Disease(string diseaseName, Symptoms[] newSymptoms, Sprite Icon) {
+    public Disease(string diseaseName, Symptoms[] newSymptoms) {
         this.diseaseName = diseaseName;
-        this.Icon = Icon;
         foreach(Symptoms s in newSymptoms) {
             symptoms.Add(s);
         }

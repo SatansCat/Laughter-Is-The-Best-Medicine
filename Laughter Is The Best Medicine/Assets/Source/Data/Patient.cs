@@ -30,15 +30,18 @@ public class Patient : MonoBehaviour
 }
 
 public class Disease {
-    public enum Symptoms {Cough, Sniffles, Blindness, Dehydraded};
+    public enum Symptoms { Cough, Sniffles, Blindness, Dehydraded };
 
     public string diseaseName; //Just adding this for easier tracking atm
-    //public sprite Icon; // Might use this?
+    public Sprite Icon;
     List<Symptoms> symptoms = new List<Symptoms>();
 
-    public Disease(string diseaseName, Symptoms[] newSymptoms) {
+    public Disease(string diseaseName, Symptoms[] newSymptoms, Sprite Icon)
+    {
         this.diseaseName = diseaseName;
-        foreach(Symptoms s in newSymptoms) {
+        this.Icon = Icon;
+        foreach (Symptoms s in newSymptoms)
+        {
             symptoms.Add(s);
         }
     }

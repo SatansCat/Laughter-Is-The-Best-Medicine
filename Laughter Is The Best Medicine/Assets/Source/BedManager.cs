@@ -43,7 +43,6 @@ public class BedManager : MonoBehaviour
                 FillBed(b);
             }
         }
-
     }
 
 

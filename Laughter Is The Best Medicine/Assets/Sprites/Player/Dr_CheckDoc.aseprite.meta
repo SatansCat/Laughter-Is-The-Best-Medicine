@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: e3140aab8d5aae84ba2149efcf29279d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 64
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638419075745680969
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dr_CheckDoc_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 402
+      width: 52
+      height: 58
+    spriteID: fee7f65706553b442856f77a33170bae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 402}
+  - name: Dr_CheckDoc_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 4
+      width: 52
+      height: 58
+    spriteID: 3f3636e92e7cd9a47ad78e9c926567e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 4}
+  - name: Dr_CheckDoc_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 70
+      width: 52
+      height: 58
+    spriteID: 4a35829309380a34b9bcacbde9ae5e9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 70}
+  - name: Dr_CheckDoc_Frame_3
+    originalName: 
+    pivot: {x: 0.49090907, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 339
+      width: 55
+      height: 58
+    spriteID: ecbe44004a01ab54c9a61413cf411fca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 339}
+  - name: Dr_CheckDoc_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 72
+      width: 58
+      height: 58
+    spriteID: 89d3c5040830ac44fa3b6c13e4049c48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 72}
+  - name: Dr_CheckDoc_Frame_5
+    originalName: 
+    pivot: {x: 0.49090907, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 405
+      width: 55
+      height: 58
+    spriteID: 928a7972bb71aaf41874cb485a4b7719
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 405}
+  - name: Dr_CheckDoc_Frame_6
+    originalName: 
+    pivot: {x: 0.49090907, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 4
+      width: 55
+      height: 58
+    spriteID: 5443aa2ef33ce61428919e616cb29d23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 4}
+  - name: Dr_CheckDoc_Frame_7
+    originalName: 
+    pivot: {x: 0.49090907, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 70
+      width: 55
+      height: 58
+    spriteID: 663ad22dead7cd046a45a1bc675468a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 70}
+  - name: Dr_CheckDoc_Frame_8
+    originalName: 
+    pivot: {x: 0.47272727, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 138
+      width: 55
+      height: 59
+    spriteID: 7a6c859dfab29c64a9be3dbe4c07ceea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 138}
+  - name: Dr_CheckDoc_Frame_9
+    originalName: 
+    pivot: {x: 0.46551725, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 58
+      height: 60
+    spriteID: 121477614e9459440aa86bea8a560bdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dr_CheckDoc_Frame_10
+    originalName: 
+    pivot: {x: 0.47272727, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 205
+      width: 55
+      height: 59
+    spriteID: 4a2764b1a29688c429a89348f157abb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 205}
+  - name: Dr_CheckDoc_Frame_11
+    originalName: 
+    pivot: {x: 0.49056605, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 268
+      width: 53
+      height: 59
+    spriteID: 006250c105f41d84d8414682d4ebb216
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 268}
+  - name: Dr_CheckDoc_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 335
+      width: 52
+      height: 59
+    spriteID: 32f4801300d8fbf45a473e91532c4880
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 335}
+  - name: Dr_CheckDoc_Frame_13
+    originalName: 
+    pivot: {x: 0.47272727, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 272
+      width: 55
+      height: 59
+    spriteID: 2454378f2e9ef974c8529e69912756b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 272}
+  - name: Dr_CheckDoc_Frame_14
+    originalName: 
+    pivot: {x: 0.49090907, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 136
+      width: 55
+      height: 58
+    spriteID: cecacfa13f348534091a5eb600a5c668
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 136}
+  - name: Dr_CheckDoc_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 136
+      width: 52
+      height: 58
+    spriteID: a87172cba43756e4aa6a418dd4e5f28d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 136}
+  - name: Dr_CheckDoc_Frame_16
+    originalName: 
+    pivot: {x: 0.49090907, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 202
+      width: 55
+      height: 58
+    spriteID: f2417305853d1bc48a10d422e79dc128
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 202}
+  - name: Dr_CheckDoc_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 202
+      width: 52
+      height: 58
+    spriteID: c8f452bfe82c54146893c8ecf2cc3d97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 202}
+  - name: Dr_CheckDoc_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 268
+      width: 52
+      height: 58
+    spriteID: b056d0b2603c54340b921d6a11d7f8b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 268}
+  - name: Dr_CheckDoc_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 334
+      width: 52
+      height: 58
+    spriteID: 4b4e4e4f8ca92a8469d528b8274ba277
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 334}
+  - name: Dr_CheckDoc_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 400
+      width: 52
+      height: 58
+    spriteID: 57abc7ac3e8695c44aea908a16d15dc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 400}
+  - name: Dr_CheckDoc_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 4
+      width: 52
+      height: 58
+    spriteID: db2df06993fc71141981d40e9403b24e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -262817249
+    name: Dr_CheckDoc
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dr_CheckDoc_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: fee7f65706553b442856f77a33170bae
+    - name: Dr_CheckDoc_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: 3f3636e92e7cd9a47ad78e9c926567e7
+    - name: Dr_CheckDoc_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: 4a35829309380a34b9bcacbde9ae5e9d
+    - name: Dr_CheckDoc_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 5
+        y: 2
+        width: 55
+        height: 58
+      spriteId: ecbe44004a01ab54c9a61413cf411fca
+    - name: Dr_CheckDoc_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 3
+        y: 2
+        width: 58
+        height: 58
+      spriteId: 89d3c5040830ac44fa3b6c13e4049c48
+    - name: Dr_CheckDoc_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 5
+        y: 2
+        width: 55
+        height: 58
+      spriteId: 928a7972bb71aaf41874cb485a4b7719
+    - name: Dr_CheckDoc_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 5
+        y: 2
+        width: 55
+        height: 58
+      spriteId: 5443aa2ef33ce61428919e616cb29d23
+    - name: Dr_CheckDoc_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 5
+        y: 2
+        width: 55
+        height: 58
+      spriteId: 663ad22dead7cd046a45a1bc675468a2
+    - name: Dr_CheckDoc_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 2
+        width: 55
+        height: 59
+      spriteId: 7a6c859dfab29c64a9be3dbe4c07ceea
+    - name: Dr_CheckDoc_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 5
+        y: 2
+        width: 58
+        height: 60
+      spriteId: 121477614e9459440aa86bea8a560bdc
+    - name: Dr_CheckDoc_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 6
+        y: 2
+        width: 55
+        height: 59
+      spriteId: 4a2764b1a29688c429a89348f157abb5
+    - name: Dr_CheckDoc_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 6
+        y: 2
+        width: 53
+        height: 59
+      spriteId: 006250c105f41d84d8414682d4ebb216
+    - name: Dr_CheckDoc_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 59
+      spriteId: 32f4801300d8fbf45a473e91532c4880
+    - name: Dr_CheckDoc_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 6
+        y: 2
+        width: 55
+        height: 59
+      spriteId: 2454378f2e9ef974c8529e69912756b5
+    - name: Dr_CheckDoc_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 5
+        y: 2
+        width: 55
+        height: 58
+      spriteId: cecacfa13f348534091a5eb600a5c668
+    - name: Dr_CheckDoc_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: a87172cba43756e4aa6a418dd4e5f28d
+    - name: Dr_CheckDoc_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 5
+        y: 2
+        width: 55
+        height: 58
+      spriteId: f2417305853d1bc48a10d422e79dc128
+    - name: Dr_CheckDoc_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: c8f452bfe82c54146893c8ecf2cc3d97
+    - name: Dr_CheckDoc_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: b056d0b2603c54340b921d6a11d7f8b2
+    - name: Dr_CheckDoc_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: 4b4e4e4f8ca92a8469d528b8274ba277
+    - name: Dr_CheckDoc_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: 57abc7ac3e8695c44aea908a16d15dc6
+    - name: Dr_CheckDoc_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 6
+        y: 2
+        width: 52
+        height: 58
+      spriteId: db2df06993fc71141981d40e9403b24e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

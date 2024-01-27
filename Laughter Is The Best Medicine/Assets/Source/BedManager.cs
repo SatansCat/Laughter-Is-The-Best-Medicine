@@ -30,10 +30,10 @@ public class BedManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        diseases.Add(new Disease("Disease 1", new Disease.Symptoms[] { Disease.Symptoms.Blindness, Disease.Symptoms.Sniffles }, diseaseIcons[0]));
+        /*diseases.Add(new Disease("Disease 1", new Disease.Symptoms[] { Disease.Symptoms.Blindness, Disease.Symptoms.Sniffles }, diseaseIcons[0]));
         diseases.Add(new Disease("Disease 2", new Disease.Symptoms[] { Disease.Symptoms.Cough, Disease.Symptoms.Sniffles }, diseaseIcons[1]));
         diseases.Add(new Disease("Disease 3", new Disease.Symptoms[] { Disease.Symptoms.Dehydraded, Disease.Symptoms.Cough }, diseaseIcons[2]));
-        diseases.Add(new Disease("Disease 4", new Disease.Symptoms[] { Disease.Symptoms.Dehydraded, Disease.Symptoms.Blindness }, diseaseIcons[3]));
+        diseases.Add(new Disease("Disease 4", new Disease.Symptoms[] { Disease.Symptoms.Dehydraded, Disease.Symptoms.Blindness }, diseaseIcons[3]));*/
     }
 
     // Update is called once per frame
@@ -59,5 +59,11 @@ public class BedManager : MonoBehaviour
         bed.BedPatient = patientPrefabs[Random.Range(0, patientPrefabs.Count)].GetComponent<Patient>();
         //give person illness
         bed.BedPatient.Illness = diseases[Random.Range(0, diseases.Count)];
+    }
+
+    public void RegisterBed(Bed newBed)
+    {
+        beds.Add(newBed);
+        //Debug.Log("[Enda] BED REGISTERED!!");
     }
 }

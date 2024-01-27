@@ -20,4 +20,11 @@ public class Bed : MonoBehaviour
         get { return m_occupied; }
         set { m_occupied = value; }
     }
+
+
+    //Register bed to manager
+    void Start()
+    {
+        BedManager.instance.RegisterBed(this);
+    }
 }

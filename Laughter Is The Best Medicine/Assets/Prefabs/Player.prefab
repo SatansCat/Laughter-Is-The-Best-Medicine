@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4585021641243496663}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 775037216866864921}
-  - {fileID: 5609613973015382970}
+  - {fileID: 4797877328756774577}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1590638749607657897
@@ -48,6 +48,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  isInRange: 0
+  interactKey: 0
+  interactAction:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!50 &4585021641243496663
 Rigidbody2D:
   serializedVersion: 4
@@ -224,7 +229,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: -8435245712485981826, guid: d641f21f5dd143a46b975485e537f8f1, type: 3}
---- !u!4 &5609613973015382970 stripped
+--- !u!4 &4797877328756774577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: d641f21f5dd143a46b975485e537f8f1, type: 3}
   m_PrefabInstance: {fileID: 3441024844224457148}

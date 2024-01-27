@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player_Controller : MonoBehaviour
 {
-    public float speed = .5f;
-
     Rigidbody2D rBody2D;
 
+    //Variables for movement
+    public float speed = 2f;
     Vector2 movement;
 
     void Start()

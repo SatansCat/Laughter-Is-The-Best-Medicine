@@ -31,7 +31,14 @@ public class JokeStand : MonoBehaviour
         {
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HasJoke = true;
             randNum = Random.Range(0, 99);
-            GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().TheJoke = setups[randNum] + " " + punchlines[randNum];
+            if(this.jokeType == StandManager.JokeType.PunJokes)
+            {
+                GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().TheJoke = setups[randNum];
+            }
+            else
+            {
+                GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().TheJoke = setups[randNum] + " " + punchlines[randNum];
+            }
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HeldJokeType = jokeType;
         }
         else

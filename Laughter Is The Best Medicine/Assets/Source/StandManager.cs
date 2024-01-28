@@ -6,7 +6,7 @@ using UnityEngine;
 public class StandManager : MonoBehaviour
 {
     List<JokeStand> stands = new List<JokeStand>();
-    public enum JokeType { DadJokes, AdultJokes, PirateJokes };
+    public enum JokeType { DadJokes, AdultJokes, PirateJokes, PunJokes };
     //string[] Setups;
     //string[] Punchlines;
     //public int randNum;
@@ -34,19 +34,24 @@ public class StandManager : MonoBehaviour
             newStand.Punchlines = TextReader.ReadFile("DadJokesPunchlines");
             /*randNum = Random.Range(0, 99);
             Debug.Log(newStand.Setups[randNum] + newStand.Punchlines[randNum]);*/
-            Debug.Log("Stand registered");
+            Debug.Log("DadJoke Stand registered");
         }
-        else if(newStand.jokeType == JokeType.AdultJokes)
+        else if (newStand.jokeType == JokeType.AdultJokes)
         {
             newStand.Setups = TextReader.ReadFile("AdultJokesSetups");
             newStand.Punchlines = TextReader.ReadFile("AdultJokesPunchlines");
-            Debug.Log("Stand registered");
+            Debug.Log("Durty Stand registered");
         }
         else if (newStand.jokeType == JokeType.PirateJokes)
         {
             newStand.Setups = TextReader.ReadFile("PirateJokesSetups");
             newStand.Punchlines = TextReader.ReadFile("PirateJokesPunchlines");
-            Debug.Log("Stand registered");
+            Debug.Log("Pirate Stand registered");
+        }
+        else if (newStand.jokeType == JokeType.PunJokes)
+        {
+            newStand.Setups = TextReader.ReadFile("PunJokes");
+            Debug.Log("Pun Stand Registered");
         }
         else
         {

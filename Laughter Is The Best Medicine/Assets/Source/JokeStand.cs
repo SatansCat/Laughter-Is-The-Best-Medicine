@@ -27,6 +27,7 @@ public class JokeStand : MonoBehaviour
 
     public void Interaction()
     {
+            Debug.Log("Picked up joke");
         if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HasJoke == false)
         {
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HasJoke = true;

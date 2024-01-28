@@ -47,7 +47,7 @@ public class Bed : MonoBehaviour
     {
         if(m_occupied && m_bedPatient != null)
         {
-            Debug.Log("TIME PASSED " +timer);
+            //Debug.Log("TIME PASSED " +timer);
             timer.value -= 1 * SpeedModifier;
             if(timer.value <= 1)
             {
@@ -102,6 +102,7 @@ public class Bed : MonoBehaviour
                             break;
                     }
                     Debug.Log("I'm Cured!");
+                    KillPatient();
                     break;
                 }
             }

@@ -72,7 +72,7 @@ public class BedManager : MonoBehaviour
         bed.timer.value = 100;
         //give person illness
         bed.BedPatient.Illness = diseases[Random.Range(0, diseases.Count)];
-        Debug.Log("illness: " + bed.BedPatient.Illness.symptoms[0]);
+        Debug.Log("illness: " + bed.BedPatient.Illness.symptoms.Keys.Count);
     }
 
     public void RegisterBed(Bed newBed)

@@ -2714,7 +2714,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19446772, g: 0.3991348, b: 0.7207546, a: 0}
+  m_BackGroundColor: {r: 0.13078666, g: 0.13714425, b: 0.14716971, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3146,6 +3146,7 @@ GameObject:
   - component: {fileID: 588053953}
   - component: {fileID: 588053952}
   - component: {fileID: 588053951}
+  - component: {fileID: 588053955}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -3240,6 +3241,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!95 &588053955
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588053950}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 7312609986366239306, guid: 1c6e59f6c92a5f742b57431caa2a3d68, type: 3}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &603829112
 GameObject:
   m_ObjectHideFlags: 0

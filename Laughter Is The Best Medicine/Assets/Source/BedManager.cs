@@ -25,15 +25,22 @@ public class BedManager : MonoBehaviour
 
     //Setting up diseases
     private List<Disease> diseases = new List<Disease>();
+    public Dictionary<Disease.Symptoms, StandManager.JokeType> cures = new Dictionary<Disease.Symptoms, StandManager.JokeType>();
 
 
     // Start is called before the first frame update
     void Start()
     {
+        //Create diseases
         /*diseases.Add(new Disease("Disease 1", new Disease.Symptoms[] { Disease.Symptoms.Blindness, Disease.Symptoms.Sniffles }, diseaseIcons[0]));
         diseases.Add(new Disease("Disease 2", new Disease.Symptoms[] { Disease.Symptoms.Cough, Disease.Symptoms.Sniffles }, diseaseIcons[1]));
         diseases.Add(new Disease("Disease 3", new Disease.Symptoms[] { Disease.Symptoms.Dehydraded, Disease.Symptoms.Cough }, diseaseIcons[2]));
         diseases.Add(new Disease("Disease 4", new Disease.Symptoms[] { Disease.Symptoms.Dehydraded, Disease.Symptoms.Blindness }, diseaseIcons[3]));*/
+
+        //Assign cures
+        cures.Add(Disease.Symptoms.Cough, StandManager.JokeType.DadJokes);
+        cures.Add(Disease.Symptoms.Dehydrated, StandManager.JokeType.AdultJokes);
+        cures.Add(Disease.Symptoms.Sniffles, StandManager.JokeType.PirateJokes);
     }
 
     // Update is called once per frame

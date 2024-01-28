@@ -30,12 +30,12 @@ public class Patient : MonoBehaviour
 }
 
 public class Disease {
-    public enum Symptoms { Cough, Sniffles, Blindness, Dehydraded };
+    public enum Symptoms { Cough, Sniffles, Dehydrated };
 
     public string diseaseName; //Just adding this for easier tracking atm
     public Sprite Icon;
     //List<Symptoms> symptoms = new List<Symptoms>();
-    Dictionary<Symptoms, bool> symptoms = new Dictionary<Symptoms, bool>();
+    public Dictionary<Symptoms, bool> symptoms = new Dictionary<Symptoms, bool>();
 
     public Disease(string diseaseName, Symptoms[] newSymptoms, Sprite Icon)
     {

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 67e24c6b97ed64845afbbbc525d119b4
+guid: bb533a3fc51d38c4b9f6e12644aa8b04
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap_Beds_0
+      name: Tilemap_Walls_ComedyRoom_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,62 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a128e5b4758d5e24b82d6c8c5d4ec85b
-      internalID: -2009537257
+      spriteID: ca5220e970de9374298ebefbcc06dc8b
+      internalID: 1431889093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Beds_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd664a14da13b4e4fbefbcca8a93739e
-      internalID: 275795543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_Beds_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b4d527c1ae2e5a49bce5e15d281303d
-      internalID: 1648794383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_Beds_3
+      name: Tilemap_Walls_ComedyRoom_1
       rect:
         serializedVersion: 2
         x: 192
-        y: 64
-        width: 64
-        height: 64
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e9aaa2035b196b429c08aae8105efac
-      internalID: 47343857
+      spriteID: 440e6ec7677ddd54b95d6bddc40ca003
+      internalID: -1878412223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Beds_4
+      name: Tilemap_Walls_ComedyRoom_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,62 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 299125505b1a4a84d9ba29d6ca86bffb
-      internalID: 1729330266
+      spriteID: f46143e8282e2bf41a099932d4ebc6b6
+      internalID: 1924773233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Beds_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c21bc41ccf01bd64c8e65bc6db2b7f7d
-      internalID: 290639713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_Beds_6
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cf2f3047e7ae604e863602171de0bc8
-      internalID: 1513494477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_Beds_7
+      name: Tilemap_Walls_ComedyRoom_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 64
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00a34b8ea30b7c34094ca5b66cfa8b2f
-      internalID: 2011925820
+      spriteID: f7cc89dacf158354a96589d1fa09b169
+      internalID: 1092614698
       vertices: []
       indices: 
       edges: []
@@ -280,7 +196,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e91495d276e35ee47bb73912370a491d
+    spriteID: 93e6ac791d5c5d84da47d87a81b4e4f8
     internalID: 0
     vertices: []
     indices: 
@@ -288,14 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tilemap_Beds_0: -2009537257
-      Tilemap_Beds_1: 275795543
-      Tilemap_Beds_2: 1648794383
-      Tilemap_Beds_3: 47343857
-      Tilemap_Beds_4: 1729330266
-      Tilemap_Beds_5: 290639713
-      Tilemap_Beds_6: 1513494477
-      Tilemap_Beds_7: 2011925820
+      Tilemap_Walls_ComedyRoom_0: 1431889093
+      Tilemap_Walls_ComedyRoom_1: -1878412223
+      Tilemap_Walls_ComedyRoom_2: 1924773233
+      Tilemap_Walls_ComedyRoom_3: 1092614698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

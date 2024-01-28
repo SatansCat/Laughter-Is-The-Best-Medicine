@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Clipboard" style="flex-grow: 1; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/Sprites/UI/Clipboard.png?fileID=2800000&amp;guid=76722defd96a5994aa466f74cb9c2b42&amp;type=3#Clipboard&apos;); width: 738px; height: 1104px; align-items: center; align-self: center; justify-content: center;">
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" name="Symtom" style="flex-direction: row; height: 59px; width: 279px;" />
+    </ui:VisualElement>
+</ui:UXML>

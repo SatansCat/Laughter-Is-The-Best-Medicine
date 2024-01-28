@@ -2,6 +2,7 @@ using ReadSpeaker;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using static StandManager;
 
 public class Bed : MonoBehaviour
@@ -9,10 +10,16 @@ public class Bed : MonoBehaviour
     private Patient m_bedPatient;
     public GameObject patientObject;
     public GameObject patientPosition;
-    [SerializeField] private GameObject timer;
+    public float SpeedModifier = 1;
+    public Slider timer;
     [SerializeField] private bool m_occupied;
     public TTSSpeaker speaker;
     Player_Movement movementScript;
+    [SerializeField] private AudioClip CorrectJoke;
+    [SerializeField] private AudioClip FullHeal;
+    [SerializeField] private AudioClip WrongJoke;
+    [SerializeField] private AudioClip DyingNoise;
+    [SerializeField] private AudioSource PatientSounds;
     //disease icon
 
     public Patient BedPatient
@@ -34,6 +41,19 @@ public class Bed : MonoBehaviour
         BedManager.instance.RegisterBed(this);
         TTS.Init();
         movementScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>();
+    }
+
+    void Update()
+    {
+        if(m_occupied && m_bedPatient != null)
+        {
+            Debug.Log("TIME PASSED " +timer);
+            timer.value -= 1 * SpeedModifier;
+            if(timer.value <= 1)
+            {
+                KillPatient();
+            }
+        }
     }
 
     public void Interaction1()
@@ -74,10 +94,24 @@ public class Bed : MonoBehaviour
                 //Check if type matches
                 if (BedManager.instance.cures.TryGetValue(k.Key, out JokeType value) && value == type)
                 {
+                    //CorrectJoke.Play();
                     m_bedPatient.Illness.symptoms[k.Key] = true;
+                    foreach(KeyValuePair<Disease.Symptoms, bool> b in m_bedPatient.Illness.symptoms)
+                    {
+                        if (b.Value == false)
+                            break;
+                    }
+                    Debug.Log("I'm Cured!");
                     break;
                 }
             }
         }
+    }
+
+    public void KillPatient()
+    {
+        m_occupied = false;
+        Destroy(patientObject);
+        m_bedPatient = null;
     }
 }

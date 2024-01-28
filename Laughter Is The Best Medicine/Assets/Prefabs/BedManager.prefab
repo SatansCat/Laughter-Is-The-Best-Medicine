@@ -44,5 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad976259cb4add45be77031afb7f766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patientPrefabs: []
-  diseaseIcons: []
+  patientPrefabs:
+  - {fileID: 6649736340489509827, guid: 70f1119e8fbf89945b497b33b78ca11c, type: 3}
+  - {fileID: 3569634435342955583, guid: 256d6d3baa8c5da4782a71c143df26ce, type: 3}
+  diseaseIcons:
+  - {fileID: -643605676, guid: 430cd07de7f439e4398d336fd7080a73, type: 3}
+  - {fileID: 2118488689, guid: 430cd07de7f439e4398d336fd7080a73, type: 3}
+  - {fileID: -1651736937, guid: 430cd07de7f439e4398d336fd7080a73, type: 3}
+  - {fileID: 677749343, guid: 430cd07de7f439e4398d336fd7080a73, type: 3}

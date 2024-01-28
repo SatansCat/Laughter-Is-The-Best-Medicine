@@ -33,15 +33,16 @@ public class BedManager : MonoBehaviour
     void Start()
     {
         //Create diseases
-        /*diseases.Add(new Disease("Disease 1", new Disease.Symptoms[] { Disease.Symptoms.Blindness, Disease.Symptoms.Sniffles }, diseaseIcons[0]));
-        diseases.Add(new Disease("Disease 2", new Disease.Symptoms[] { Disease.Symptoms.Cough, Disease.Symptoms.Sniffles }, diseaseIcons[1]));
-        diseases.Add(new Disease("Disease 3", new Disease.Symptoms[] { Disease.Symptoms.Dehydraded, Disease.Symptoms.Cough }, diseaseIcons[2]));
-        diseases.Add(new Disease("Disease 4", new Disease.Symptoms[] { Disease.Symptoms.Dehydraded, Disease.Symptoms.Blindness }, diseaseIcons[3]));*/
+        diseases.Add(new Disease("Disease 1", new Disease.Symptoms[] { Disease.Symptoms.Blindness }, diseaseIcons[0]));
+        diseases.Add(new Disease("Disease 2", new Disease.Symptoms[] { Disease.Symptoms.Cough }, diseaseIcons[1]));
+        diseases.Add(new Disease("Disease 3", new Disease.Symptoms[] { Disease.Symptoms.Dehydrated }, diseaseIcons[2]));
+        diseases.Add(new Disease("Disease 4", new Disease.Symptoms[] { Disease.Symptoms.Sniffles }, diseaseIcons[3]));
 
         //Assign cures
         cures.Add(Disease.Symptoms.Cough, StandManager.JokeType.DadJokes);
         cures.Add(Disease.Symptoms.Dehydrated, StandManager.JokeType.AdultJokes);
-        cures.Add(Disease.Symptoms.Sniffles, StandManager.JokeType.PirateJokes);
+        cures.Add(Disease.Symptoms.Blindness, StandManager.JokeType.PirateJokes);
+        cures.Add(Disease.Symptoms.Sniffles, StandManager.JokeType.PunJokes);
     }
 
     // Update is called once per frame
@@ -68,8 +69,10 @@ public class BedManager : MonoBehaviour
         //generate person and add to bed
         bed.patientObject = Instantiate(patientPrefabs[Random.Range(0, patientPrefabs.Count)],bed.patientPosition.transform);
         bed.BedPatient = bed.patientObject.GetComponent<Patient>();
+        bed.timer.value = 100;
         //give person illness
         bed.BedPatient.Illness = diseases[Random.Range(0, diseases.Count)];
+        Debug.Log("illness: " + bed.BedPatient.Illness.symptoms[0]);
     }
 
     public void RegisterBed(Bed newBed)

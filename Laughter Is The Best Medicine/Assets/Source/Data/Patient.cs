@@ -30,7 +30,7 @@ public class Patient : MonoBehaviour
 }
 
 public class Disease {
-    public enum Symptoms { Cough, Sniffles, Dehydrated };
+    public enum Symptoms { Cough, Sniffles, Dehydrated, Blindness};
 
     public string diseaseName; //Just adding this for easier tracking atm
     public Sprite Icon;

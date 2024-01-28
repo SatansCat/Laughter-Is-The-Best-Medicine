@@ -9749,6 +9749,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5341533091334490086, guid: 6a26a2cc1330ead4eb8360f26c91cc20, type: 3}
+      propertyPath: jokeType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7679813972770417030, guid: 6a26a2cc1330ead4eb8360f26c91cc20, type: 3}
       propertyPath: m_Name
       value: JokeStand

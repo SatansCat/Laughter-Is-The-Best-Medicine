@@ -21,10 +21,8 @@ public class JokeStand : MonoBehaviour
     void Start()
     {
         StandManager.instance.RegisterStand(this);
-        Debug.Log("Stand Added to List");
-        randNum = Random.Range(0, 99);
-        Debug.Log(setups[randNum] + punchlines[randNum]);
-        //player = GameObject.FindWithTag("Player");
+        /*randNum = Random.Range(0, 99);
+        Debug.Log(setups[randNum] + punchlines[randNum]);*/
     }
 
     public void Interaction()

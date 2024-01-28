@@ -1,12 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class JokeStand : MonoBehaviour
 {
-    [SerializeField] StandManager.JokeType jokeType;
+    //private GameObject player;
+    public StandManager.JokeType jokeType;
     private string[] setups;
     private string[] punchlines;
+    int randNum;
 
     public string[] Setups
     { 
@@ -22,5 +22,19 @@ public class JokeStand : MonoBehaviour
     {
         StandManager.instance.RegisterStand(this);
         Debug.Log("Stand Added to List");
+        randNum = Random.Range(0, 99);
+        Debug.Log(setups[randNum] + punchlines[randNum]);
+        //player = GameObject.FindWithTag("Player");
+    }
+
+    public void Interaction()
+    {
+        if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HasJoke == false)
+        {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HasJoke = true;
+            randNum = Random.Range(0, 99);
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().TheJoke = setups[randNum] + punchlines[randNum];
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HeldJokeType = jokeType;
+        }
     }
 }

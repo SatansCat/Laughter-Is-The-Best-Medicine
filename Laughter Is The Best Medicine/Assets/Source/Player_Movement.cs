@@ -1,15 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Movement : MonoBehaviour
 {
-    public float speed = .5f;
-
+    //Animation variables
     Rigidbody2D rBody2D;
     Animator animator;
 
+    //Movement variables
+    public float speed = .5f;
     Vector2 movement;
+
+    //jokeassets
+    [SerializeField] private bool hasJoke;
+    [SerializeField] private string theJoke;
+    [SerializeField] private StandManager.JokeType heldJokeType; //Defaults to DadJoke
+
+    public bool HasJoke
+    {
+        get { return hasJoke; }
+        set { hasJoke = value;  }
+    }
+
+    public string TheJoke
+    {
+        get { return theJoke; }
+        set {  theJoke = value; }
+    }
+
+    public StandManager.JokeType HeldJokeType 
+    { 
+        get { return heldJokeType; } 
+        set { heldJokeType = value; }
+    }
+    // end jokeassets
 
     void Start()
     {

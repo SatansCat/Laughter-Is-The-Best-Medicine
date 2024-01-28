@@ -10,6 +10,7 @@ public class Bed : MonoBehaviour
     [SerializeField] private GameObject timer;
     [SerializeField] private bool m_occupied;
     public TTSSpeaker speaker;
+    Player_Movement movementScript;
     //disease icon
 
     public Patient BedPatient
@@ -30,15 +31,15 @@ public class Bed : MonoBehaviour
     {
         BedManager.instance.RegisterBed(this);
         TTS.Init();
+        movementScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>();
     }
 
-    public void Interaction()
+    public void Interaction1()
     {
-        Player_Movement movementScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>();
         if (movementScript.HasJoke == true)
         {
             //if bed is occupied try to solve simptom
-            if(m_occupied)
+            if (m_occupied)
                 AttemptCure(movementScript.HeldJokeType);
 
             //Read the joke out loud
@@ -55,6 +56,10 @@ public class Bed : MonoBehaviour
         {
             Debug.Log("Not holding joke");
         }
+    }
+    public void Interaction2()
+    {
+        Debug.Log("Q pressed");
     }
 
     public void AttemptCure(JokeType type)

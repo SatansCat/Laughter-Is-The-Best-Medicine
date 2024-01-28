@@ -7,6 +7,8 @@ using static StandManager;
 public class Bed : MonoBehaviour
 {
     private Patient m_bedPatient;
+    public GameObject patientObject;
+    public GameObject patientPosition;
     [SerializeField] private GameObject timer;
     [SerializeField] private bool m_occupied;
     public TTSSpeaker speaker;

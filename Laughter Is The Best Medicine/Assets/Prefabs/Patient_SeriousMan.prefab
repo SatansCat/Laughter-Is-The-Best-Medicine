@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5910161519507156926}
   - component: {fileID: 5873702110729551216}
   - component: {fileID: 7558291442685162872}
+  - component: {fileID: 58800920339710892}
   m_Layer: 0
   m_Name: Patient_SeriousMan
   m_TagString: Patient
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3569634435342955583}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.52, y: 2.638, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -106,3 +107,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &58800920339710892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569634435342955583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd1737c2e0bf8a4a960d88bb80303e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_faveJoke: 0
+  m_person: {fileID: 3569634435342955583}

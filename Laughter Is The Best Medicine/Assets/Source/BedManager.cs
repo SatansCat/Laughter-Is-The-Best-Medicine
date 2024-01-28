@@ -23,6 +23,7 @@ public class BedManager : MonoBehaviour
     public List<GameObject> patientPrefabs = new List<GameObject>();
     public List<Sprite> diseaseIcons = new List<Sprite>();
 
+
     //Setting up diseases
     private List<Disease> diseases = new List<Disease>();
     public Dictionary<Disease.Symptoms, StandManager.JokeType> cures = new Dictionary<Disease.Symptoms, StandManager.JokeType>();
@@ -51,7 +52,8 @@ public class BedManager : MonoBehaviour
         {
             if (!b.Occupied)
             {
-                FillBed(b);
+                IEnumerator c = FillBed(b);
+                StartCoroutine(c);
             }
         }
     }
@@ -60,10 +62,12 @@ public class BedManager : MonoBehaviour
     IEnumerator FillBed(Bed bed)
     {
         bed.Occupied = true;
+        Debug.Log("[Enda] Bed fill "+bed.Occupied);
         yield return new WaitForSeconds(3);
 
         //generate person and add to bed
-        bed.BedPatient = patientPrefabs[Random.Range(0, patientPrefabs.Count)].GetComponent<Patient>();
+        bed.patientObject = Instantiate(patientPrefabs[Random.Range(0, patientPrefabs.Count)],bed.patientPosition.transform);
+        bed.BedPatient = bed.patientObject.GetComponent<Patient>();
         //give person illness
         bed.BedPatient.Illness = diseases[Random.Range(0, diseases.Count)];
     }

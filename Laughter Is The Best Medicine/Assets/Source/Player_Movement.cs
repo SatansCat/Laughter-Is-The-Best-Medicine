@@ -18,7 +18,7 @@ public class Player_Movement : MonoBehaviour
     public bool HasJoke
     {
         get { return hasJoke; }
-        set { hasJoke = value;  }
+        set { hasJoke = value; }
     }
 
     public string TheJoke

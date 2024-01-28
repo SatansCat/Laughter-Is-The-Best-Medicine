@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static StandManager;
 
 public class Bed : MonoBehaviour
 {
@@ -26,5 +27,18 @@ public class Bed : MonoBehaviour
     void Start()
     {
         BedManager.instance.RegisterBed(this);
+    }
+
+    public void Interaction()
+    {
+        if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HasJoke == true)
+        {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HasJoke = false;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().TheJoke = null;
+        }
+        else
+        {
+            Debug.Log("Not holding joke");
+        }
     }
 }

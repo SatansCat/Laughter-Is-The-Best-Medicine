@@ -36,5 +36,9 @@ public class JokeStand : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().TheJoke = setups[randNum] + punchlines[randNum];
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement>().HeldJokeType = jokeType;
         }
+        else
+        {
+            Debug.Log("Holding joke already");
+        }
     }
 }

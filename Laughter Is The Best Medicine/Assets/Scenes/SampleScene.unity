@@ -3448,15 +3448,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 421868701368606602, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.07737795
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 421868701368606602, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.810596
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 421868701368606602, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.600368
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 421868701368606602, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3490,6 +3490,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: InteractCircle
       objectReference: {fileID: 0}
+    - target: {fileID: 6016815231858884557, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016815231858884557, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016815231858884557, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1976151125}
+    - target: {fileID: 6016815231858884557, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016815231858884557, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016815231858884557, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bed, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016815231858884557, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3509,15 +3537,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8678411192786426987, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: 3.53
       objectReference: {fileID: 0}
     - target: {fileID: 8678411192786426987, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.6
+      value: 7.77
       objectReference: {fileID: 0}
     - target: {fileID: 8678411192786426987, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 62.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8678411192786426987, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9578,6 +9606,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1976151125 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2163842876147849760, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
+  m_PrefabInstance: {fileID: 760461052}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2084888237b4c854fa5d413623e06a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2019900919
 GameObject:
   m_ObjectHideFlags: 0

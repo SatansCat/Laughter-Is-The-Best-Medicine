@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BedManager : MonoBehaviour
 {
+    //test for git
     //Making the bed manager a singleton
     public static BedManager instance { get; private set; }
     private void Awake()

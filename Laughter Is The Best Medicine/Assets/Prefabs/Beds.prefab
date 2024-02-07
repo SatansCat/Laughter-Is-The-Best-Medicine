@@ -309,10 +309,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: pf_Bed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3012532625544710919, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012532625544710919, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012532625544710919, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5106259001490558709, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -185609545, guid: 180d5adc72e06294e84f537003d98181, type: 3}
+    - target: {fileID: 8251446949404771539, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251446949404771539, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8678411192786426987, guid: 4f5efba43274c6b48ba03eefa05a11eb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.93347

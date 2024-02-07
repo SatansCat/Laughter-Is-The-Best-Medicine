@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3569634435342955583
+--- !u!1 &6649736340489509827
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,25 +8,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5910161519507156926}
-  - component: {fileID: 5873702110729551216}
-  - component: {fileID: 7558291442685162872}
-  - component: {fileID: 58800920339710892}
-  - component: {fileID: 1944080995574639093}
+  - component: {fileID: 90395630334589343}
+  - component: {fileID: 6041838756573268461}
+  - component: {fileID: 236242324381636370}
+  - component: {fileID: 2796408151369686901}
+  - component: {fileID: 6070195946015574683}
   m_Layer: 0
-  m_Name: Patient_SeriousMan
+  m_Name: Patient_CoffeeWoman
   m_TagString: Patient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5910161519507156926
+--- !u!4 &90395630334589343
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3569634435342955583}
+  m_GameObject: {fileID: 6649736340489509827}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -35,13 +35,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5873702110729551216
+--- !u!212 &6041838756573268461
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3569634435342955583}
+  m_GameObject: {fileID: 6649736340489509827}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 102
-  m_Sprite: {fileID: -4053587671231668502, guid: db894f6124b792647a0f6ab3283c5b06, type: 3}
+  m_Sprite: {fileID: 4501360968567873553, guid: 57442734e556be44398f70904efd607e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -87,17 +87,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &7558291442685162872
+--- !u!95 &236242324381636370
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3569634435342955583}
+  m_GameObject: {fileID: 6649736340489509827}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 5643338485024236149, guid: db894f6124b792647a0f6ab3283c5b06, type: 3}
+  m_Controller: {fileID: 3689602804873979073, guid: 57442734e556be44398f70904efd607e, type: 3}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -108,27 +108,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &58800920339710892
+--- !u!114 &2796408151369686901
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3569634435342955583}
+  m_GameObject: {fileID: 6649736340489509827}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afd1737c2e0bf8a4a960d88bb80303e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_faveJoke: 0
-  m_person: {fileID: 3569634435342955583}
---- !u!82 &1944080995574639093
+  m_person: {fileID: 6649736340489509827}
+--- !u!82 &6070195946015574683
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3569634435342955583}
+  m_GameObject: {fileID: 6649736340489509827}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}

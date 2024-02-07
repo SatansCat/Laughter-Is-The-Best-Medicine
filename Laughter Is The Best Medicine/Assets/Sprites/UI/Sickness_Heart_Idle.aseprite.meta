@@ -1,0 +1,939 @@
+fileFormatVersion: 2
+guid: 2b4c5419dccd53f4ab907be758552f94
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 64
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638429005524887418
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Sickness_Heart_Idle_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 18
+      height: 13
+    spriteID: c363d9b212ce9da46b955ee81b1db194
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Sickness_Heart_Idle_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 25
+      width: 18
+      height: 13
+    spriteID: 0fa6262278fe8734898058a7a1a9258e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 25}
+  - name: Sickness_Heart_Idle_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 46
+      width: 18
+      height: 13
+    spriteID: fb89e9fa87043214da96dc4fe9cc811f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 46}
+  - name: Sickness_Heart_Idle_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 67
+      width: 18
+      height: 13
+    spriteID: ebd59227ca315c545ada9127eae48851
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 67}
+  - name: Sickness_Heart_Idle_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 88
+      width: 18
+      height: 13
+    spriteID: 9a95ac3f42c40424fb205cbe84e7b191
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 88}
+  - name: Sickness_Heart_Idle_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 109
+      width: 18
+      height: 13
+    spriteID: 216f27148a1a40c4bafa36dfb18d1844
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 109}
+  - name: Sickness_Heart_Idle_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 130
+      width: 18
+      height: 13
+    spriteID: 3c8bd1222bbe48d47b4048ce6983dbbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 130}
+  - name: Sickness_Heart_Idle_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 151
+      width: 18
+      height: 13
+    spriteID: f09e21cef19c64d458450f7bec986696
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 151}
+  - name: Sickness_Heart_Idle_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 172
+      width: 18
+      height: 13
+    spriteID: ba99d8d977a6a1045bbe8f44d4a81454
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 172}
+  - name: Sickness_Heart_Idle_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 193
+      width: 18
+      height: 13
+    spriteID: 79820a1ae94c48c498e2bc61c39fd391
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 193}
+  - name: Sickness_Heart_Idle_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 214
+      width: 18
+      height: 13
+    spriteID: 02880e936441eca44be842a9d249e9ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 214}
+  - name: Sickness_Heart_Idle_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 235
+      width: 18
+      height: 13
+    spriteID: 4207a955adf02574bbe3d92c2a5aa648
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 235}
+  - name: Sickness_Heart_Idle_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 4
+      width: 18
+      height: 13
+    spriteID: 38094ffc5a3723646991871aafff29c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 4}
+  - name: Sickness_Heart_Idle_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 25
+      width: 18
+      height: 13
+    spriteID: 0859e03a5559cf44dacc8461460ed570
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 25}
+  - name: Sickness_Heart_Idle_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 46
+      width: 18
+      height: 13
+    spriteID: 5cd4bd2acfc9e4e47924ce156e510eaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 46}
+  - name: Sickness_Heart_Idle_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 67
+      width: 18
+      height: 13
+    spriteID: c72605d57b7273c4b9b3445bfb1e47c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 67}
+  - name: Sickness_Heart_Idle_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 88
+      width: 18
+      height: 13
+    spriteID: 224925f5926b2c3449f3ec1c73da227d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 88}
+  - name: Sickness_Heart_Idle_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 109
+      width: 18
+      height: 13
+    spriteID: 1cde84333af9a8e40b7698d7b178aeae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 109}
+  - name: Sickness_Heart_Idle_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 130
+      width: 18
+      height: 13
+    spriteID: 0e5eab3cce39e0c43b0656e4e6bfd01f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 130}
+  - name: Sickness_Heart_Idle_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 151
+      width: 18
+      height: 13
+    spriteID: 028c1f6e9a5d31b43b717b127c15ad59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 151}
+  - name: Sickness_Heart_Idle_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 172
+      width: 18
+      height: 13
+    spriteID: 17569a5f12517844695f6f072a6a0611
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 172}
+  - name: Sickness_Heart_Idle_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 193
+      width: 18
+      height: 13
+    spriteID: 11ac762ee9315504b953161cee0b96a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 193}
+  - name: Sickness_Heart_Idle_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 214
+      width: 18
+      height: 13
+    spriteID: 243eefec561d7fa49b9d99c3a0172854
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 214}
+  - name: Sickness_Heart_Idle_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 235
+      width: 18
+      height: 13
+    spriteID: 53bdcc037bdd78c40b8708a8ebbdb00c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 235}
+  - name: Sickness_Heart_Idle_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 4
+      width: 18
+      height: 13
+    spriteID: d4dd4272066957b4295c41b8d02ded10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 4}
+  - name: Sickness_Heart_Idle_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 25
+      width: 18
+      height: 13
+    spriteID: f0814080e5c11ef4e8bacefcf581b940
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 25}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -432189553
+    name: Sickness_Heart_Idle
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Sickness_Heart_Idle_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: c363d9b212ce9da46b955ee81b1db194
+    - name: Sickness_Heart_Idle_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 0fa6262278fe8734898058a7a1a9258e
+    - name: Sickness_Heart_Idle_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: fb89e9fa87043214da96dc4fe9cc811f
+    - name: Sickness_Heart_Idle_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: ebd59227ca315c545ada9127eae48851
+    - name: Sickness_Heart_Idle_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 9a95ac3f42c40424fb205cbe84e7b191
+    - name: Sickness_Heart_Idle_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 216f27148a1a40c4bafa36dfb18d1844
+    - name: Sickness_Heart_Idle_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 3c8bd1222bbe48d47b4048ce6983dbbc
+    - name: Sickness_Heart_Idle_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: f09e21cef19c64d458450f7bec986696
+    - name: Sickness_Heart_Idle_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: ba99d8d977a6a1045bbe8f44d4a81454
+    - name: Sickness_Heart_Idle_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 79820a1ae94c48c498e2bc61c39fd391
+    - name: Sickness_Heart_Idle_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 02880e936441eca44be842a9d249e9ac
+    - name: Sickness_Heart_Idle_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 4207a955adf02574bbe3d92c2a5aa648
+    - name: Sickness_Heart_Idle_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 38094ffc5a3723646991871aafff29c9
+    - name: Sickness_Heart_Idle_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 0859e03a5559cf44dacc8461460ed570
+    - name: Sickness_Heart_Idle_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 5cd4bd2acfc9e4e47924ce156e510eaf
+    - name: Sickness_Heart_Idle_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: c72605d57b7273c4b9b3445bfb1e47c9
+    - name: Sickness_Heart_Idle_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 224925f5926b2c3449f3ec1c73da227d
+    - name: Sickness_Heart_Idle_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 1cde84333af9a8e40b7698d7b178aeae
+    - name: Sickness_Heart_Idle_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 0e5eab3cce39e0c43b0656e4e6bfd01f
+    - name: Sickness_Heart_Idle_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 028c1f6e9a5d31b43b717b127c15ad59
+    - name: Sickness_Heart_Idle_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 17569a5f12517844695f6f072a6a0611
+    - name: Sickness_Heart_Idle_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 11ac762ee9315504b953161cee0b96a4
+    - name: Sickness_Heart_Idle_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 243eefec561d7fa49b9d99c3a0172854
+    - name: Sickness_Heart_Idle_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: 53bdcc037bdd78c40b8708a8ebbdb00c
+    - name: Sickness_Heart_Idle_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: d4dd4272066957b4295c41b8d02ded10
+    - name: Sickness_Heart_Idle_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 7
+        y: 9
+        width: 18
+        height: 13
+      spriteId: f0814080e5c11ef4e8bacefcf581b940
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

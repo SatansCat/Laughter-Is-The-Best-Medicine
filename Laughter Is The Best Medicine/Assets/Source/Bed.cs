@@ -21,6 +21,7 @@ public class Bed : MonoBehaviour
     [SerializeField] private AudioClip DyingNoise;
     [SerializeField] private AudioSource PatientSounds;
     //disease icon
+    public Clipboard patientClipboard;
 
     public Patient BedPatient
     {
@@ -82,6 +83,8 @@ public class Bed : MonoBehaviour
     public void Interaction2()
     {
         Debug.Log("Q pressed");
+
+        patientClipboard.OpenClipboard();
     }
 
     public void AttemptCure(JokeType type)

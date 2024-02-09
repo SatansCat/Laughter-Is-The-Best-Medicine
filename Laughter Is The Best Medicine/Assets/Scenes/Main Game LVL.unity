@@ -3346,15 +3346,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7600039650546918781, guid: b663c233b33eba647994a8f93e7d09ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.127506
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7600039650546918781, guid: b663c233b33eba647994a8f93e7d09ac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6348248
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7600039650546918781, guid: b663c233b33eba647994a8f93e7d09ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.069745675
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7600039650546918781, guid: b663c233b33eba647994a8f93e7d09ac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4898,7 +4898,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 5
   m_Sprite: {fileID: 1192944578, guid: 7143ede3bda32fa4580c471f33523a5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10234,15 +10234,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2946744412195699317, guid: d8688c7c665566541baa7a6c8803b79f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7753394
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946744412195699317, guid: d8688c7c665566541baa7a6c8803b79f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8134586
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946744412195699317, guid: d8688c7c665566541baa7a6c8803b79f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.6842127
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946744412195699317, guid: d8688c7c665566541baa7a6c8803b79f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12179,7 +12179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1727044456
 Transform:
   m_ObjectHideFlags: 0
@@ -13562,7 +13562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2019900920
 Transform:
   m_ObjectHideFlags: 0

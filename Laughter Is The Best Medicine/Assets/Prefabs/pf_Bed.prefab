@@ -46,6 +46,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8678411192786426987}
   - component: {fileID: 2163842876147849760}
+  - component: {fileID: 5945015170902500782}
   m_Layer: 0
   m_Name: pf_Bed
   m_TagString: Untagged
@@ -62,7 +63,7 @@ Transform:
   m_GameObject: {fileID: 1737761016328902801}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.127506, y: 2.6348248, z: -0.069745675}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -95,6 +96,23 @@ MonoBehaviour:
   WrongJoke: {fileID: 0}
   DyingNoise: {fileID: 0}
   PatientSounds: {fileID: 0}
+  patientClipboard: {fileID: 4053454539030392020}
+--- !u!114 &5945015170902500782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737761016328902801}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: d35321a784d5c094a869561bb046e432, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 544c65dcffd159b45b8049c50372cd8f, type: 3}
+  m_SortingOrder: 0
 --- !u!1 &1897503313933033719
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +185,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 101
+  m_SortingOrder: 11
   m_Sprite: {fileID: -208366987, guid: 180d5adc72e06294e84f537003d98181, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -782,6 +800,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3995891259059574392, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4655467930908152290}
+    - targetCorrespondingSourceObject: {fileID: 3995891259059574392, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4053454539030392020}
   m_SourcePrefab: {fileID: 100100000, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
 --- !u!1 &6171524535014945493 stripped
 GameObject:
@@ -817,6 +838,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4053454539030392020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6171524535014945493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d09198724263294488067f18aa2a6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipboardUI: {fileID: 5945015170902500782}
 --- !u!4 &7425079440357964583 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 421868701368606602, guid: cea6959f80d63b545a98fddc740b2119, type: 3}
